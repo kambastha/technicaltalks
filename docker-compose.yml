@@ -1,0 +1,22 @@
+version: '3'
+services:
+  web:
+    build: 
+      context: ./meetupdockercompose/
+      dockerfile: Dockerfile
+    ports:
+      - "8990:80"
+  database:
+    build: 
+      context: ./meetupdockercompose/
+      dockerfile: Dockerfile.1
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+    ports:
+      - "3602:3603"
+
+    volumes:
+         - "/home/anand/docker/dockercompose/mysqldb/data:/var/lib/mysql"
+         - "/home/anand/docker/dockercompose/mysqldb/init:/docker-entrypoint-initdb.d/:ro"

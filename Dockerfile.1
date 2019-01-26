@@ -1,0 +1,9 @@
+FROM mysql
+RUN apt-get update 
+RUN apt-get --yes  install  nano
+RUN apt-get --yes  install  curl
+RUN apt-get --yes install iputils-ping
+RUN apt-get --yes install vim
+RUN apt-get --yes install net-tools
+EXPOSE 3306 33060
+
