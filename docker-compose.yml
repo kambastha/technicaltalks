@@ -2,13 +2,13 @@ version: '3'
 services:
   web:
     build: 
-      context: ./meetupdockercompose/
+      context: .
       dockerfile: Dockerfile
     ports:
       - "8990:80"
   database:
     build: 
-      context: ./meetupdockercompose/
+      context: .
       dockerfile: Dockerfile.1
     command: mysqld --default-authentication-plugin=mysql_native_password
     restart: always
@@ -18,5 +18,5 @@ services:
       - "3602:3603"
 
     volumes:
-         - "/home/anand/docker/dockercompose/mysqldb/data:/var/lib/mysql"
-         - "/home/anand/docker/dockercompose/mysqldb/init:/docker-entrypoint-initdb.d/:ro"
+         - "./data:/var/lib/mysql"
+         - "./init:/docker-entrypoint-initdb.d/:ro"

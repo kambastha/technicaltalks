@@ -1,5 +1,5 @@
 <?php
-$servername = "dockercompose_database_1";
+$servername = "meetupdockercompose_database_1";
 $username = "root";
 $password = "root";
 $dbname = "student";
