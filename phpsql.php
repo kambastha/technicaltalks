@@ -5,7 +5,7 @@ $password = "root";
 $dbname = "student";
 $port = 3306;
 
-echo "DB details";
+echo "<h1>********Database details********</h1><br>";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
 // Check connection
@@ -21,7 +21,7 @@ if (mysqli_num_rows($result)>0) {
     // output data of each row
     while($row = mysqli_fetch_assoc($result)) {
 	
-        echo "\n stud_id: " . $row["stud_id"]. " Name: " . $row["firstname"]. " " . $row["lastname"];
+        echo "\n<br><h5> stud_id: " . $row["stud_id"]. " Name: " . $row["firstname"]. " " . $row["lastname"];
 	echo "\n";
     }
 } else {
