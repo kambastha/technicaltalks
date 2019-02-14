@@ -1,8 +1,7 @@
 # Docker-Compose Hands-on Lab
 
-# LAB --> 1
+## LAB --> 1
 
-## 1 Clone The Project :
 -open https://labs.play-with-docker.com and Add new instance:
 
 ```
@@ -28,9 +27,22 @@ services:
 ```
 
 
+Execute following commands:
+
+```
+docker-compose up 
+
+```
 
 
-# Follow The Insrtuction Below :
+
+
+-------------------------------------------------------------------------------
+
+# LAB SESSION 2
+
+
+## Follow The Insrtuction Below :
 
 
 ## 1 Clone The Project :
