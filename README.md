@@ -23,6 +23,10 @@ git clone https://github.com/anandbhagwat/meetupdockercompose.git
 ```
 ls
 cd meetupdockercompose/
+ls
+cat Dockerfile
+cat Dockerfile.1
+cat docker-compose.yml
 ```
 
 Execute following commands:
