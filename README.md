@@ -30,3 +30,6 @@ Execute following commands:
 ```
 docker-compose up 
 ```
+
+## 3 Click on port number : 8990
+Your application is deployed
