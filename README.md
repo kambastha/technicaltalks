@@ -1,5 +1,34 @@
 # Docker-Compose Hands-on Lab
 
+# LAB --> 1
+
+## 1 Clone The Project :
+-open https://labs.play-with-docker.com and Add new instance:
+
+```
+vim docker-compose.yml
+```
+
+Copy Below content in the file
+
+```
+version: '3.0'
+
+services:
+  webserver:
+    image: nginx
+    ports:
+      - 80:80
+  webapplication:
+    image: php
+  database:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+```
+
+
+
 
 # Follow The Insrtuction Below :
 
