@@ -12,9 +12,9 @@ git clone https://github.com/anandbhagwat/meetupdockercompose.git
 ```
 
 - This project contains 1 Standard PHP Application which fetches data from mysql Database.
-# Projects includes:
--Docker file for Installation of PHP on nginx Image
--Docker file 2nd for Initaliazing the Mysql database and pre-iniatliazed database
+- Projects includes:
+   -Docker file for Installation of PHP on nginx Image
+   -Docker file 2nd for Initaliazing the Mysql database and pre-iniatliazed database
 
 
 
