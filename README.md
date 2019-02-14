@@ -1,8 +1,32 @@
-#Docker-Compose Hands-on Lab
+# Docker-Compose Hands-on Lab
 
-This project contains 1 Standard PHP Application which fetches data from mysql Database.
-Projects includes:
+
+# Follow The Insrtuction Below :
+
+
+## 1 Clone The Project :
+-open https://labs.play-with-docker.com and Add new instance:
+
+```
+git clone https://github.com/anandbhagwat/meetupdockercompose.git
+```
+
+- This project contains 1 Standard PHP Application which fetches data from mysql Database.
+# Projects includes:
 -Docker file for Installation of PHP on nginx Image
--Docker file 2nd for Initaliazing the Mysql database
+-Docker file 2nd for Initaliazing the Mysql database and pre-iniatliazed database
 
-Follow The Insrtuction Below
+
+
+## 2 Navigate to projetc repository:
+
+```
+ls
+cd meetupdockercompose/
+```
+
+Execute following commands:
+
+```
+docker-compose up 
+```
