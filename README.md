@@ -10,7 +10,7 @@ vim docker-compose.yml
 
 Copy Below content in the file
 
-```
+
 version: '3.0'
 
 services:
@@ -24,7 +24,6 @@ services:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: password
-```
 
 
 Execute following commands:
