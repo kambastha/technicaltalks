@@ -4,11 +4,15 @@
 
 -open https://labs.play-with-docker.com and Add new instance:
 
+## 1 Clone The Project :
+```
+git clone https://github.com/anandbhagwat/dockermeetupyaml.git
+```
+## 1 cd dockermeetupyaml  :
+
 ```
 vim docker-compose.yml
 ```
-
-Copy Below content in the file
 
 ```
 version: '3.0'
@@ -26,7 +30,9 @@ services:
       MYSQL_ROOT_PASSWORD: password
 
 ```
-Execute following commands:
+## exit from vim using :q!
+
+#Execute following commands:
 
 ```
 docker-compose up 
