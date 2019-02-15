@@ -5,7 +5,8 @@ $password = "root";
 $dbname = "student";
 $port = 3306;
 
-echo "<h1>********Database details********</h1><br>";
+echo "<h1>********Simple PHP and Database Connectivity Application********</h1><br>";
+echo '<body style="background-color:green">';
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname, $port);
 // Check connection

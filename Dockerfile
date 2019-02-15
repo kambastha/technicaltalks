@@ -8,7 +8,6 @@ RUN apt-get --yes install net-tools
 RUN docker-php-ext-install mysqli
 #/usr/local/etc/php
 WORKDIR /var/www/html
-COPY index.php index.php
-COPY phpsql.php phpsql.php
+COPY . .
 EXPOSE 80
 
