@@ -24,9 +24,8 @@ services:
     image: mysql
     environment:
       MYSQL_ROOT_PASSWORD: password
+
 ```
-
-
 Execute following commands:
 
 ```
