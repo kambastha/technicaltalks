@@ -8,7 +8,7 @@
 ```
 git clone https://github.com/kambastha/techtalks.git
 ```
-## 1 cd dockermeetupyaml  :
+## 1 cd techtalks  :
 
 ```
 vim docker-compose.yml
