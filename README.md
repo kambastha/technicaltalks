@@ -6,7 +6,7 @@
 
 ## 1 Clone The Project :
 ```
-git clone https://github.com/anandbhagwat/dockermeetupyaml.git
+git clone https://github.com/kambastha/techtalks.git
 ```
 ## 1 cd dockermeetupyaml  :
 
@@ -54,7 +54,7 @@ docker-compose up
 -open https://labs.play-with-docker.com and Add new instance:
 
 ```
-git clone https://github.com/anandbhagwat/meetupdockercompose.git
+git clone https://github.com/kambastha/techtalks.git
 ```
 
 - This project contains 1 Standard PHP Application which fetches data from mysql Database.
