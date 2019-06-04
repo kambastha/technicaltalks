@@ -68,7 +68,7 @@ git clone https://github.com/kambastha/techtalks.git
 
 ```
 ls
-cd meetupdockercompose/
+cd techtalks/
 ls
 cat Dockerfile
 cat Dockerfile.1
