@@ -64,7 +64,7 @@ git clone https://github.com/kambastha/techtalks.git
 
 
 
-## 2 Navigate to projetc repository:
+## 2 Navigate to project repository:
 
 ```
 ls
